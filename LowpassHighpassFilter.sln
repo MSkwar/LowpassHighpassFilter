@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowpassHighpassFilter_VST3", "LowpassHighpassFilter_VST3.vcxproj", "{12E32BB5-B6D7-4439-D1AC-8B66F4604478}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25} = {EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowpassHighpassFilter_SharedCode", "LowpassHighpassFilter_SharedCode.vcxproj", "{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E32BB5-B6D7-4439-D1AC-8B66F4604478}.Debug|x64.ActiveCfg = Debug|x64
+		{12E32BB5-B6D7-4439-D1AC-8B66F4604478}.Debug|x64.Build.0 = Debug|x64
+		{12E32BB5-B6D7-4439-D1AC-8B66F4604478}.Release|x64.ActiveCfg = Release|x64
+		{12E32BB5-B6D7-4439-D1AC-8B66F4604478}.Release|x64.Build.0 = Release|x64
+		{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}.Debug|x64.ActiveCfg = Debug|x64
+		{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}.Debug|x64.Build.0 = Debug|x64
+		{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}.Release|x64.ActiveCfg = Release|x64
+		{EB94ECFA-E612-7A7D-4A7E-A03DDABE5F25}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D929448E-25DA-4F5A-B411-82D470B1997A}
+	EndGlobalSection
+EndGlobal
